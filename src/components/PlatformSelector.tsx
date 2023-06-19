@@ -11,7 +11,6 @@ interface Props {
 
 const PlatformSelector = ({ selectedPlatform, onSelectPlatform }: Props) => {
     const { data } = usePlatofrms();
-    console.log(data);
     return (
         <Menu>
             <MenuButton as={Button} rightIcon={<BsChevronDown />}>
